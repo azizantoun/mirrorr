@@ -76,7 +76,7 @@ const Intro = () => (
       }
       @media (min-width: 992px) {
         .mirrorr-circle {
-          bottom: -150%;
+          bottom: -180%;
         }
       }
       @media (max-width: 1200px) {

@@ -35,7 +35,7 @@ const Nav = () => (
         text-align: center;
         display: flex;
         width: 100%;
-        padding: 2em 3em;
+        padding: 1em 3em;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -46,6 +46,7 @@ const Nav = () => (
         left: 0;
         right: 0;
         top: 0;
+        border-bottom:1px solid #EEE;
       }
       ul {
         display: flex;
