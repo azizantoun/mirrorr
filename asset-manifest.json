@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/azizantoun/mirrorr/static/css/main.8628d3a1.chunk.css",
+    "main.js": "/azizantoun/mirrorr/static/js/main.6007468a.chunk.js",
+    "main.js.map": "/azizantoun/mirrorr/static/js/main.6007468a.chunk.js.map",
+    "runtime~main.js": "/azizantoun/mirrorr/static/js/runtime~main.75cbe4fe.js",
+    "runtime~main.js.map": "/azizantoun/mirrorr/static/js/runtime~main.75cbe4fe.js.map",
+    "static/css/2.266e55a5.chunk.css": "/azizantoun/mirrorr/static/css/2.266e55a5.chunk.css",
+    "static/js/2.e4a10700.chunk.js": "/azizantoun/mirrorr/static/js/2.e4a10700.chunk.js",
+    "static/js/2.e4a10700.chunk.js.map": "/azizantoun/mirrorr/static/js/2.e4a10700.chunk.js.map",
+    "index.html": "/azizantoun/mirrorr/index.html",
+    "precache-manifest.eb10e3aba285aacb5a08c21ee0c1d952.js": "/azizantoun/mirrorr/precache-manifest.eb10e3aba285aacb5a08c21ee0c1d952.js",
+    "service-worker.js": "/azizantoun/mirrorr/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/azizantoun/mirrorr/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.8628d3a1.chunk.css.map": "/azizantoun/mirrorr/static/css/main.8628d3a1.chunk.css.map",
+    "static/media/dashboard.png": "/azizantoun/mirrorr/static/media/dashboard.62051cf6.png",
+    "static/media/insights.png": "/azizantoun/mirrorr/static/media/insights.5b73b133.png",
+    "static/media/partners.png": "/azizantoun/mirrorr/static/media/partners.a6dc2d37.png",
+    "static/media/quote.png": "/azizantoun/mirrorr/static/media/quote.f07c7b2e.png",
+    "static/media/quote2.png": "/azizantoun/mirrorr/static/media/quote2.cbe02dbd.png"
+  }
+}
