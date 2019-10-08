@@ -2,7 +2,10 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Analytics from "./analytics-icon";
+import Analytics from "./icons/analytics-icon";
+import DataIcon from "./icons/data-icon";
+import InfluencersDataIcon from "./icons/influencersdata-icon";
+import ReportsIcon from "./icons/reports-icon";
 const Meet = () => (
   <section>
     <Container>
@@ -10,28 +13,45 @@ const Meet = () => (
         <Col xs={12} style={{ position: "relative" }}>
           <div className="feature">
             <div>
-              <Analytics style={{ width: "4em" }} />
+              <DataIcon
+                className="feature-icon"
+                style={{ color: "#FFF", fill: "#FFF" }}
+              />
               <p className="text">
-                Know everything abour your brand's online presence and the
-                influencers using it
+                <b>Brand Detection</b>
+                <br />
+                Mirrorr detects and identifies brands and logos in posts and
+                videos, spotting the needed brands through AI from any
+                perspective even if not mentioned or tagged.
               </p>
             </div>
           </div>
           <div className="feature">
             <div>
-              <Analytics style={{ width: "4em" }} />
+              <InfluencersDataIcon
+                style={{ width: "3em", marginTop: "1em", marginBottom: "1em" }}
+              />
               <p className="text">
-                Get exclusive insights and data from the top 15,000 influencers
-                in your region
+                <b>AI powered platform</b>
+                <br />> Mirrorr has its own built-in video/image, audio and text
+                recognition AI tool which gives a smart and luxurious privilege
+                for the users whereas all brands – with no exception – are
+                detected meticulously even if not mentioned nor tagged.
               </p>
             </div>
           </div>
           <div className="feature">
             <div>
-              <Analytics style={{ width: "4em" }} />
+              <ReportsIcon
+                style={{ width: "4em", marginTop: "1em", marginBottom: "1em" }}
+              />
               <p className="text">
-                Get customized daily reports on your collaboration with the
-                influencer
+                <b>Metadata</b> <br />
+                Mirrorr is a mass market tool covering public profiles,
+                celebrities, mega, macro & micro influencers in addition to
+                local influencers along with their daily updates and insights
+                (followers, posts, stories…) . Mirrorr’ huge db makes it
+                standing uniquely among other tools reach.
               </p>
             </div>
           </div>
@@ -39,9 +59,10 @@ const Meet = () => (
             <div className="borderr-pad">
               <h4 className="title">Meet Mirrorr</h4>
               <p className="borderr text">
-                Mirrorr is a monitoring and analytical tool that mirrors all
-                ongoing activities, highlighting in specific the brand's
-                exposure by each influencer.
+                Mirrorr helps you grow your business based on hard data and real
+                market insights, streamlines your digital marketing with the
+                support of AI, enhances your search and qualifies your analytics
+                and highlights your digital market trends.
               </p>
             </div>
           </div>
@@ -53,8 +74,8 @@ const Meet = () => (
     <style>{`
     
     .feature{
-        width:15em;
-        height:15em;
+        width:20em;
+        height:20em;
         background:red;
         border-radius:50%;
         position:absolute;
@@ -91,6 +112,10 @@ const Meet = () => (
         right:0;
         bottom:8em;
         position:absolute;
+    }
+    .feature-icon{
+      margin:1em auto;
+      width:2em;
     }
     
     `}</style>

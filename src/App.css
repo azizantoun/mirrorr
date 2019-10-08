@@ -3,61 +3,6 @@
   body {
     margin: 0;
     font-family: "Titillium Web", Helvetica, sans-serif;
-  }
-
-
-  body {
-    padding-top: 8em;
-  }
-
-  main {
-    display: block;
-    margin: auto;
-  }
-
-  .button {
-    background-color: #4050ff;
-    color: #fff !important;
-    padding: 0.8em 2em;
-    border-radius: 0.3em;
-    transition: background-color 200ms ease;
-    cursor: pointer;
-  }
-
-  .button:hover {
-    background-color: #6d79f7;
-  }
-
-  .button.white {
-    background-color: #fff;
-    border: 1px solid #4050ff;
-    color: #4050ff !important;
-  }
-
-  .button.white:hover {
-    background-color: #4050ff;
-    color: #fff !important;
-  }
-
-  .borderr {
-    border-left: 0.3em solid #000;
-    padding-left: 1em;
-  }
-
-  .borderr-pad {
-    padding-left: 1.8em;
-  }
-
-  .title {
-    font-size: 1.2em;
-    font-weight: bold;
-  }
-
-  p.text {
-    font-size: 0.9em;
-  }
-
-  hr {
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
-    margin-bottom: 4em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }

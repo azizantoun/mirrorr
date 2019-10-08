@@ -20,8 +20,8 @@ function App() {
         <Meet />
         <hr></hr>
         <Features />
-        <hr></hr>
-        <Quote />
+
+        {/* <Quote /> */}
         <Demo />
         <Footer />
       </main>

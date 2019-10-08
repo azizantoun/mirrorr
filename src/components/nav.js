@@ -1,11 +1,11 @@
 import React from "react";
 import MirrorLogo from "../components/logo";
 const links = [
-  { href: "https://zeit.co/now", label: "Features" },
-  { href: "https://github.com/zeit/next.js", label: "Pricing" },
-  { href: "https://github.com/zeit/next.js", label: "Login" },
+  { href: "", label: "Meet Mirrorr" },
+  { href: "", label: "How Does it Work" },
+  { href: "", label: "Features" },
   {
-    href: "https://github.com/zeit/next.js",
+    href: "",
     label: "Book a demo",
     className: "button"
   }
@@ -16,8 +16,8 @@ const links = [
 
 const Nav = () => (
   <nav style={{ background: "#FFF", zIndex: 2 }}>
-    <a href="/">
-      <MirrorLogo width="15em"></MirrorLogo>
+    <a href="/" className="logo-container">
+      <MirrorLogo width="15em" style={{ marginTop: "0.8em" }}></MirrorLogo>
     </a>
 
     <ul style={{ padding: 0, margin: 0 }}>
@@ -74,6 +74,25 @@ const Nav = () => (
       a:hover {
         color: #4050ff;
       }
+      .logo-container{
+        width:16em;
+        transition:width 300ms ease;
+      }
+      @media (max-width: 900px) {
+        .logo-container{
+          width:2em;
+          overflow:hidden;
+        }
+        li{
+          padding:0 1em;
+        }
+        nav{
+          padding:1em;
+        }
+      
+
+      }
+      
     `}</style>
   </nav>
 );

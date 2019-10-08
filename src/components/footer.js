@@ -8,11 +8,11 @@ const Footer = () => (
       <Row>
         <p>2019 &copy; Mirrorr Social. All rights reserved </p>
         <div>
-          <a href="/">Careers</a>
+          {/* <a href="/">Careers</a>
           <span> - </span>
           <a href="/">Team</a>
           <span> - </span>
-          <a href="/">Contact</a>
+          <a href="/">Contact</a> */}
         </div>
       </Row>
     </Container>

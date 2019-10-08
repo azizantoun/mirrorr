@@ -4,28 +4,29 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import dashboard from "../static/images/dashboard.png";
-import partners from "../static/images/partners.png";
+// import partners from "../static/images/partners.png";
 const Intro = () => (
   <section>
     <Container>
       <Row style={{ position: "relative" }}>
         <Col xs={12} lg={6} xl={4}>
           <h1 className="title borderr">
-            Meet the first social media brand & influencer monitoring and
-            analytical tool
+            Mirrorr is a unique mass market tool that detects and identifies
+            brands and logos in posts and stories through AI.
           </h1>
           <div className="borderr-pad ">
             <p className="text">
-              Mirrorr is a 3D coverage tool that gives users in-depth insight
-              about your potential influencers on social media
+              The only kit that directly connects brands and public profiles
+              along both quantitative and qualitative analysis ensuring a 3D
+              coverage.
             </p>
             <div className="d-flex">
               <a href="test" className="button">
                 Book a demo
               </a>
-              <a href="test" className="button white">
+              {/* <a href="test" className="button white">
                 Watch video
-              </a>
+              </a> */}
             </div>
           </div>
         </Col>
@@ -37,7 +38,7 @@ const Intro = () => (
           <Image src={dashboard} fluid />
         </Col>
       </Row>
-      <Row className="mt-3">
+      {/* <Row className="mt-3">
         <Col lg={12}>
           <p className="text-center text">
             <small>
@@ -46,10 +47,10 @@ const Intro = () => (
             </small>
           </p>
           <center>
-            <Image src={partners} fluid style={{ maxWidth: "40em" }} />
+            <Image src={partners} fluid style={{ maxWidth: "30em" }} />
           </center>
         </Col>
-      </Row>
+      </Row> */}
     </Container>
 
     <style>{`
