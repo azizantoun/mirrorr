@@ -70,7 +70,6 @@ class Demo extends React.Component {
             <Col xs={12} lg={2}></Col>
           </Row>
           <Row style={{ height: "5em" }}></Row>
-          {this.state.get("result")}
         </Container>
 
         <style>{`
