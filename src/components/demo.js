@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import axios from "axios";
+const API_PATH = "http://elwasso.com/sendmail.php";
 
 class Demo extends React.Component {
   render() {
@@ -97,20 +98,15 @@ class Demo extends React.Component {
 
   handleFormSubmit = e => {
     console.log(this.state);
-    const API_PATH = "https://mailthis.to/admin@mirrorr.com";
     e.preventDefault();
     axios({
-      method: "post",
+      method: "get",
       url: `${API_PATH}`,
       headers: { "content-type": "application/json" },
-      data: {
-        name: "test",
-        email: "test@test.com"
-      }
+      data: this.state,
+      params: this.state
     })
       .then(result => {
-        console.log(result);
-        this.state.setState("result", result);
         this.setState({
           mailSent: result.data.sent
         });
