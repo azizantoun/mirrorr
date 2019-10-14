@@ -8,7 +8,9 @@ const links = [
     href: "",
     label: "Book a demo",
     className: "button"
-  }
+  },
+  { href: "http://mirrorr.com/#/login", label: "Login", className:"login-button" }
+
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}-${link.className}`;
   return link;

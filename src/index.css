@@ -10,6 +10,13 @@ main {
   margin: auto;
 }
 
+.login-button{
+  background-color: #fff;
+  color: #4050ff!important;
+  padding: 0.8em 2em;
+  border-color: #4050ff;
+  cursor: pointer;
+}
 .button {
   background-color: #4050ff;
   color: #fff !important;
